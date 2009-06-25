@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tyler McMullen"]
   s.date = %q{2009-05-12}
-  s.description = %q{Ruby Trie based on libdatrie.}
+  s.description = %q{Ruby Trie based on libdatrie. (1.9 support)}
   s.email = %q{tyler@scribd.com}
   s.extensions = ["ext/trie/extconf.rb"]
   s.files = ["README.textile", "VERSION.yml", "lib/trie.rb", "spec/trie_spec.rb", "ext/trie", "ext/trie/darray.c", "ext/trie/darray.h", "ext/trie/extconf.rb", "ext/trie/fileutils.c", "ext/trie/fileutils.h", "ext/trie/Makefile", "ext/trie/tail.c", "ext/trie/tail.h", "ext/trie/trie-private.c", "ext/trie/trie-private.h", "ext/trie/trie.c", "ext/trie/trie.h", "ext/trie/triedefs.h", "ext/trie/typedefs.h"]
