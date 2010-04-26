@@ -15,10 +15,10 @@ begin
     s.require_paths = ['ext','lib']
     s.files = FileList["[A-Z]*.*", "{lib,spec,ext}/**/*"]
     s.has_rdoc = true
-    s.rdoc_options = ['--title', 'Trie', '--line-numbers', '--op', 'rdoc', '--main', 'ext/trie/trie.c', 'README']
+    s.rdoc_options = ['--title', 'Trie', '--line-numbers', '--op', 'rdoc', '--main', 'ext/trie/trie.c']
   end
 rescue LoadError
-  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+  puts "Jeweler not available. Install it with: sudo gem install jeweler"
 end
 
 Spec::Rake::SpecTask.new do |t|

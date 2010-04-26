@@ -1,3 +1,7 @@
+h1. Fork: rename to FastTrie
+
+This fork renames the class to reflect the name of the gem.  i.e., use require 'FastTrie' instead of require 'Trie'.  Otherwise having both the fast_trie and trie gems installed will make one of them unavailable.  
+
 h1. Trie
 
 This is a trie for Ruby using libdatrie. It uses a dual-array system, meaning it has best-in-class memory usage and search time.

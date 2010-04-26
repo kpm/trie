@@ -1,10 +1,10 @@
 #require File.dirname(__FILE__) + '/../ext/trie/trie'
 require 'rubygems'
-require 'trie'
+require 'fast_trie'
 
-describe Trie do
+describe FastTrie do
   before :each do
-    @trie = Trie.new;
+    @trie = FastTrie.new;
     @trie.add('rocket')
     @trie.add('rock')
     @trie.add('frederico')
@@ -159,7 +159,7 @@ end
 
 describe TrieNode do
   before :each do
-    @trie = Trie.new;
+    @trie = FastTrie.new;
     @trie.add('rocket',1)
     @trie.add('rock',2)
     @trie.add('frederico',3)

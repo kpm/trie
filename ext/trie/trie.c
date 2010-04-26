@@ -444,8 +444,8 @@ static VALUE rb_trie_node_leaf(VALUE self) {
 }
 
  
-void Init_trie() {
-    cTrie = rb_define_class("Trie", rb_cObject);
+void Init_fast_trie() {
+    cTrie = rb_define_class("FastTrie", rb_cObject);
     rb_define_alloc_func(cTrie, rb_trie_alloc);
     rb_define_method(cTrie, "has_key?", rb_trie_has_key, 1);
     rb_define_method(cTrie, "get", rb_trie_get, 1);
