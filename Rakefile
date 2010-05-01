@@ -8,8 +8,8 @@ begin
     s.name = "fast_trie"
     s.email = "tyler@scribd.com"
     s.homepage = "http://github.com/tyler/trie"
-    s.description = "Ruby Trie based on libdatrie."
-    s.summary = s.description
+    s.description = "Ruby Trie based on libdatrie. (1.9 support)"
+    s.summary = "Ruby Trie based on libdatrie. (1.9 support)"
     s.authors = ["Tyler McMullen"]
     s.extensions = ['ext/trie/extconf.rb']
     s.require_paths = ['ext','lib']
